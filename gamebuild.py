@@ -8,6 +8,7 @@ Created on Wed 10/01/2024
 import pygame
 import os
 
+#After Git
 
 #dimesions of the game window
 WIDTH, HEIGHT = 900, 500
