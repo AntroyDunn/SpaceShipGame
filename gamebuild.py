@@ -114,11 +114,11 @@ def main():
                 run = False
 
             if event.type == pygame.KEYDOWN:
-                if event.key == pygame.K_END and len(yellow_bullets) < MAX_BULLETS:
+                if event.key == pygame.K_e and len(yellow_bullets) < MAX_BULLETS:
                     bullet = pygame.Rect(yellow.x + yellow.width, yellow.y + yellow.height//2 - 2, 10, 5)
                     yellow_bullets.append(bullet)
                 
-                if event.key == pygame.K_e and len(red_bullets) < MAX_BULLETS:
+                if event.key == pygame.K_RSHIFT and len(red_bullets) < MAX_BULLETS:
                     bullet = pygame.Rect(red.x - red.width, red.y + yellow.height//2 -2, 10, 5)
                     red_bullets.append(bullet)
 
